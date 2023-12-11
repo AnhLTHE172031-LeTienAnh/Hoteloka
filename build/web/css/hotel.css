@@ -1,0 +1,221 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jul 3, 2023, 12:36:44 AM
+    Author     : ASUS
+*/
+.list-hotel{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-left: 100px;
+}
+
+.room-table{
+    height: 300px;
+    border: #00cfad solid thick;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.room-table_row{
+    background-color: sandybrown;
+}
+
+.room-table_row_1{
+    background-color: wheat;
+}
+
+.room-table_ele{
+    font-weight: bold;
+    font-size: medium
+}
+
+.hotel{
+    display: flex;
+    margin-bottom: 35px;
+    background-color: #00cfad;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.hotel-image img{
+    width: 100%;
+    height: 100%;
+}
+
+.hotel-detail{
+    display: block;
+    width: 40%;
+    border-right: yellow solid thin;
+    border-left: yellow solid thin;
+}
+.hotel-detail h2 a{
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.hotel-detail h1 a{
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+
+.hotel-rate{
+    margin-left: 20px;
+    margin-top: -30px
+}
+
+.hotel-address{
+    margin-left: 20px;
+    width: 60%;
+    border-bottom: yellow solid thin;
+}
+
+.hotel-address a{
+    color: white;
+}
+
+.hotel-services h4{
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.hotel-services ul{
+    margin-top: 0px;
+}
+
+.hotel-contact {
+    display: block;
+    margin-left: 15px;
+    align-items: center;
+}
+
+.hotel-price {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.hotel-hotline {
+    display: flex;
+    flex-direction: column;
+}
+
+.hotel-hotline input{
+    background-color: yellowgreen;
+    color: white;
+    width: 100px;
+    height: 30px;
+}
+
+.page-div{
+    display: flex;
+    float: right;
+    margin-right: 82px;
+    margin-top: -50px;
+}
+
+.lab{
+    color: sandybrown;
+    font-size: 2em;
+    font-weight: 600;
+    margin-right: 4px;
+    margin-left: 10px;
+}
+
+.sel{
+    background-color: #00cfad;
+    color: white;
+}
+
+.submit{
+    background-color: sandybrown;
+    border: none;
+    border-radius: 3px;
+    margin-right: 4px;
+    margin-left: 4px;
+    cursor: pointer;
+}
+
+.button-12 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6px 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
+    border-radius: 6px;
+    border: none;
+
+    background: sandybrown;
+    box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.1), inset 0px 0.5px 0.5px rgba(255, 255, 255, 0.5), 0px 0px 0px 0.5px rgba(0, 0, 0, 0.12);
+    color: #DFDEDF;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.button-12:focus {
+    box-shadow: inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2), 0px 0.5px 1px rgba(0, 0, 0, 0.1), 0px 0px 0px 3.5px rgba(58, 108, 217, 0.5);
+    outline: 0;
+}
+
+.button-12 a{
+    display: block;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+.list_address{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.list_address_info{
+
+    max-width: calc((100%/10)*2);
+    margin: 10px 10px;
+    text-align: center;
+    background-color: springgreen;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.list_address_info img{
+    width: 100%;
+}
+
+.button-2 {
+  background-color: #fcf8e3;
+  border-radius: 8px;
+  border-width: 0;
+  color: #333333;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  list-style: none;
+  margin-top: 6px;
+  margin-bottom: -6px;
+  padding: 10px 12px;
+  text-align: center;
+  transition: all 200ms;
+  vertical-align: baseline;
+  white-space: nowrap;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+
+
+
